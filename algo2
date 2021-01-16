@@ -1,0 +1,29 @@
+Procédure dot_product (v1,v2 : real) ;
+Déclaration
+ int U[N], V[N]; 
+ int N;   
+ int I;     
+ long PS;   
+Début
+
+
+ ecrire ("Dimension des tableaux (max.50) : ");
+ lire(N);
+ ecrire(" Premier tableau ");
+ for (I=0; I<N; I++)
+    {
+     ecrire ("Elément  : ", I);
+     lire(U[I]);
+    }
+ecrire(" Deuxième tableau ");
+ for (I=0; I<N; I++)
+    {
+     ecrire("Elément : ", I);
+     lire (V[I]);
+    }
+
+ for (PS=0, I=0; I<N; I++)
+     produit scalaire += (long)U[I]*V[I];
+ 
+ ecrire("Produit scalaire :  Produit scalaire);
+Fin ;
